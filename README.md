@@ -10,19 +10,19 @@ You may work in pairs, but both partners must have commits in the repo.
 
    <code>void ranges(int x[], int npts, int *max_ptr, int *min_ptr)</code>
 
-   where npts contain the number of values in array x, and max_ptr and min_ptr are pointers to the variables in which to store the maximum and minimum values in the array.
+   where ```npts``` contain the number of values in array ```x```, and ```max_ptr``` and ```min_ptr``` are pointers to the variables in which to store the maximum and minimum values in the array.
 
    Have a main that first accept the number of points followed by an array of integers (max 10). Your main should also print out the max and min values of the array after calling the ranges function.
 
-2. (K&R Exercise 5-13) Write the program <code>tail</code>, which prints the last n lines of its input. By default, n is 10, let us say, but it can be changed by an optional argument, so that
+2. (K&R Exercise 5-13) Write the program <code>tail</code>, which prints the last ```n``` lines of its input. By default, ```n``` is 10, let us say, but it can be changed by an optional argument, so that
 
     <code>tail -n</code>
 
-    prints the last n lines. The program should behave rationally no matter how unreasonable the input or the value of n. Write the program so it makes the best use of available storage; lines should be stored as in the sorting program of Seciton 5.6, not in a two-dimensional array of fixed size.
+    prints the last ```n``` lines. The program should behave rationally no matter how unreasonable the input or the value of n. Write the program so it makes the best use of available storage; lines should be stored as in the sorting program of Seciton 5.6, not in a two-dimensional array of fixed size.
 
-3. Using the point struct that we used in class, write a program that will compute 11 points of a quadratic curve in the form of ax^2+bx+c from -5 to 5. Prompt the user to input values for a, b, and c. Store these points in a struct array and print the points.
+3. Using the point struct that we used in class, write a program that will compute 11 points of a quadratic curve in the form of ```ax^2+bx+c``` from -5 to 5. Prompt the user to input values for a, b, and c. Store these points in a struct array and print the points.
 
-    Have the main accept a, b, and c (which are whole numbers to make things easier) using argc and argv.
+    Have the main accept ```a```, ```b```, and ```c``` (which are whole numbers to make things easier) using argc and argv.
     
 4. Find an interesting statistic and create a structure in C storing those statistics. Write 2 functions that does interesting analystics for those statistics. Be sure to print out these analytics.
 

@@ -20,7 +20,7 @@ You may work in pairs, but both partners must have commits in the repo.
 
     prints the last ```n``` lines. The program should behave rationally no matter how unreasonable the input or the value of n. Write the program so it makes the best use of available storage; lines should be stored as in the sorting program of Seciton 5.6, not in a two-dimensional array of fixed size.
 
-3. Using the point struct that we used in class, write a program that will compute 11 points of a quadratic curve in the form of ```ax^2+bx+c``` from -5 to 5. Prompt the user to input values for a, b, and c. Store these points in a struct array and print the points.
+3. Using the point struct that we used in class, write a program that will compute 11 points of a quadratic curve in the form of ```ax^2+bx+c``` from -5 to 5. Prompt the user to input values for ```a```, ```b```, and ```c```. Store these points in a struct array and print the points.
 
     Have the main accept ```a```, ```b```, and ```c``` (which are whole numbers to make things easier) using argc and argv.
     
